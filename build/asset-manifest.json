@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/color_palette/static/css/main.19cac144.css",
+    "main.js": "/color_palette/static/js/main.d08bf488.js",
+    "index.html": "/color_palette/index.html",
+    "main.19cac144.css.map": "/color_palette/static/css/main.19cac144.css.map",
+    "main.d08bf488.js.map": "/color_palette/static/js/main.d08bf488.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19cac144.css",
+    "static/js/main.d08bf488.js"
+  ]
+}
