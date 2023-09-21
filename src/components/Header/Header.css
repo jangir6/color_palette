@@ -1,0 +1,63 @@
+/* Formatting for header */
+header {
+  position: relative;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  box-shadow: var(--box-shadow);
+}
+
+h1 {
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  /* font-size: 2rem; */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: "pauline-didone-variable", sans-serif; */
+  font-size: 50px;
+  color: rgb(112, 112, 234);
+  text-decoration: underline;
+}
+
+/* .subheading {
+  font-family: muli, sans-serif;
+  font-size: 0.5em;
+} */
+
+.mode-btn {
+  border-radius: 10em 10em 10em 10em;
+  border-style: solid;
+  /* border-width: 0.05rem ; */
+}
+
+/* Formatting specific to mode button */
+.mode-btn {
+  height: 110%;
+  margin: 0.5em 0;
+  border: 50% solid black;
+  /* width: 10rem; */
+  /* border-color: black; */
+}
+
+/* Media queries for responsive styling */
+@media (min-width: 500px) {
+  header {
+    margin: 0;
+  }
+  .mode-btn {
+    height: 100%;
+    width: 20vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .mode-btn {
+    height: 100%;
+    width: 20vw;
+  }
+}

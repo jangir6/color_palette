@@ -1,0 +1,37 @@
+/* Formatting for saved schemes section */
+.schemes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0;
+    list-style: none;
+  }
+  
+.saved-scheme {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Formatting for individual saved colors */
+  .saved-colors {
+    display: flex;
+  }
+  
+  .saved-color {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  li {
+    list-style: none;
+  }
+  
+  @media (min-width: 500px) {
+    .saved-scheme > .color-scheme {
+        max-height: 30vw;
+    }
+  }
