@@ -1,0 +1,42 @@
+/* @import url("https://use.typekit.net/rcz7gsc.css"); */
+
+/* Variables */
+:root {
+  --dark-grey: #111;
+  --light-bg: #fff;
+  --light-grey: #fff;
+  --box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.35);
+}
+
+/* Global formatting */
+* {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+/* General formatting for light and dark mnsode */
+.light {
+  background-color: #fff;
+  color: var(--dark-grey);
+}
+
+.dark {
+  background-color: #111;
+  color: var(--white);
+}
+
+/* General styling for body and main elements*/
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+
